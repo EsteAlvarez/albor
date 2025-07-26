@@ -1,0 +1,86 @@
+/* Theme colors
+================================  */
+:root {
+	--bg-albor-light: #fcfcf7;
+	--title-albor-light: #111111;
+	--text-albor-light: #4b4b4b;
+	--link-albor-light: #b57d4b;
+	--link-albor-light-hover: #9c693f;
+	--bg-albor-dark: #111111;
+	--title-albor-dark: #fcfcf7;
+	--text-albor-dark: #d6d6cf;
+	--link-albor-dark: #f2c98d; 
+	--link-albor-dark-hover: #c49a61; 
+}
+
+/* Light mode
+================================  */
+.albor-light-mode {
+  background-color: var(--bg-albor-light);
+  transition: 0.2s;
+}
+
+.albor-light-mode .light-screenmode-focus {
+  color: var(--link-albor-light);
+}
+
+.albor-light-mode h1,
+.albor-light-mode h2,
+.albor-light-mode h3,
+.albor-light-mode h4,
+.albor-light-mode h5,
+.albor-light-mode h6 {
+  color: var(--title-albor-light);
+}
+
+.albor-light-mode p,
+.albor-light-mode span,
+.albor-light-mode li,
+.albor-light-mode button {
+	color: var(--text-albor-light);
+}
+
+.albor-light-mode .albor-link {
+	color: var(--link-albor-light);
+	transition: 0.5s;
+}
+
+.albor-light-mode .albor-link:hover {
+	color: var(--link-albor-light-hover);
+}
+
+/* Dark mode
+================================  */
+.albor-dark-mode {
+	background-color: var(--bg-albor-dark);
+	transition: 0.2s;
+}
+
+.albor-dark-mode .dark-screenmode-focus {
+	color: var(--link-albor-dark);
+}
+  
+  .albor-dark-mode h1,
+  .albor-dark-mode h2,
+  .albor-dark-mode h3,
+  .albor-dark-mode h4,
+  .albor-dark-mode h5,
+  .albor-dark-mode h6 {
+	color: var(--title-albor-dark);
+  }
+  
+  .albor-dark-mode p,
+  .albor-dark-mode span,
+  .albor-dark-mode li,
+  .albor-dark-mode button {
+	  color: var(--text-albor-dark);
+  }
+  
+  .albor-dark-mode .albor-link {
+	  color: var(--link-albor-dark);
+	  transition: 0.5s;
+  }
+  
+  .albor-dark-mode .albor-link:hover {
+	  color: var(--link-albor-dark-hover);
+  }

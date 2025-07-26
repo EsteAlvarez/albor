@@ -1,0 +1,9 @@
+.albor-label {
+    font-size: 1.5rem;
+}
+
+.albor-input {
+    width: 100%;
+    border-bottom: 2px solid #d6d6cf;
+    margin-bottom: 2rem;
+}
